@@ -3,9 +3,9 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //http://codeforces.com/contest/230/problem/A
-public class TaskA{
+public class Main{
   public static void main(String[] args) {
-    TaskA tA = new TaskA();
+	  Main tA = new Main();
     PrintWriter pw = new PrintWriter(System.out);
     tA.solve(new Scanner(System.in), pw);
     pw.close();

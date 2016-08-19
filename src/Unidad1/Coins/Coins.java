@@ -1,6 +1,6 @@
 import java.util.*;
 //http://codeforces.com/contest/58/
-public class Main {
+public class Coins {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();

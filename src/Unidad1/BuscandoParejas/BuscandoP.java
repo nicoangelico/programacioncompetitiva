@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
 https://omegaup.com/arena/problem/Buscando-Parejas#problems
  */
-public class Main {
+public class BuscandoP {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
