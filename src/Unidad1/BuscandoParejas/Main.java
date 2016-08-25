@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
+//https://omegaup.com/arena/problem/Buscando-Parejas
 public class Main {
 
 	public static void main(String[] args) {
