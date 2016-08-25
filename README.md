@@ -25,3 +25,9 @@ http://www.oracle.com/technetwork/es/java/javase/downloads/index.html
 https://git-scm.com/download/win
 
 ## Considere comenzar a utlizar Linux
+
+## Comunicacioones y Avisos
+
+Vía el grupo de Telegram, use este link para unirse
+
+https://telegram.me/joinchat/CJdABT9O3WCOKXCOigD7SA
