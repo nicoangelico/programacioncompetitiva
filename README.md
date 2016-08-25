@@ -26,6 +26,9 @@ https://git-scm.com/download/win
 
 ## Considere comenzar a utlizar Linux
 
+Linux es más práctico y orientado al desarrollo de aplicaciones, tiene mejores herramientas y provee un enterno mas amigable para el programador. 
+Conocer Linux le ayudará mucho en su vida profesional y alancanzar las mejores oportunidades laborales, aproveche.
+
 ## Comunicacioones y Avisos
 
 Vía el grupo de Telegram, use este link para unirse
