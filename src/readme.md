@@ -33,3 +33,17 @@ https://www.urionlinejudge.com.br/judge/en/problems/view/1534
 8 - Do Nothing
 
 https://www.urionlinejudge.com.br/judge/en/problems/view/1989
+
+## Unidad 2
+
+1 - Two Strings
+
+http://codeforces.com/problemset/problem/550/A
+
+2 - Soldiers and Cards
+
+http://codeforces.com/problemset/problem/546/C
+
+3 - Registration System
+
+http://codeforces.com/problemset/problem/4/C
