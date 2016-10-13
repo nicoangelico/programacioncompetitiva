@@ -47,5 +47,3 @@ http://codeforces.com/problemset/problem/546/C
 3 - Registration System
 
 http://codeforces.com/problemset/problem/4/C
-
-
