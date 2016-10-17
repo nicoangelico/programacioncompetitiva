@@ -1,0 +1,62 @@
+package main;
+
+/**
+ *
+ * @author pichon
+ */
+import java.util.*;
+
+public class Grafos {
+    
+    public static ArrayList<ArrayList<Integer>> nodos = new ArrayList();
+    public static ArrayList<Integer> explotados = new ArrayList<>();
+    
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        int c_nodos=sc.nextInt();
+        int c_aristas=sc.nextInt();
+        ArrayList<Boolean> recorrido = new ArrayList();
+        for (int i = 0; i < c_nodos; i++) {
+            ArrayList<Integer> aristas = new ArrayList();
+            nodos.add(aristas);
+            recorrido.add(Boolean.FALSE);
+        }
+        for (int i = 0; i < c_aristas; i++) {
+            int padre=sc.nextInt();
+            int hijo=sc.nextInt();
+            nodos.get(padre-1).add(hijo-1);
+            nodos.get(hijo-1).add(padre-1);
+        }
+        boolean resultado = esArbol(0,9999);
+//        System.out.println(resultado);
+        if (resultado) {
+            System.out.println("yes");
+        }
+    }    
+    
+    public static boolean esArbol(int nodo, int padre){
+        explotados.add(nodo);
+        ArrayList<Integer> hijos = nodos.get(nodo);
+        if (hijos.contains(padre)) {
+            hijos.remove(hijos.indexOf(padre));
+        }
+//        System.out.println(hijos);
+//        System.out.println(explotados);
+        if (hijos.isEmpty()) {
+            return true;
+        }
+        boolean es = true;
+        for (int i = 0; i < hijos.size(); i++) {
+            if (explotados.contains(hijos.get(i))) {
+                System.out.println("no");
+                return false;
+            } else {
+                es = es && esArbol(hijos.get(i), nodo);
+                if (!es) {
+                    return false;
+                }
+            }
+        }
+        return es;
+    }
+}
